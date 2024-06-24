@@ -1,4 +1,4 @@
-import logo from '@/assets/images/writegpt.png'
+import logo from '@/assets/images/writeGPTLogo.svg'
 
 import { useSelector } from 'react-redux'
 
@@ -9,7 +9,7 @@ const Logo = () => {
 
     return (
         <div style={{ alignItems: 'center', display: 'flex', flexDirection: 'row' }}>
-            <img style={{ objectFit: 'contain', height: 'auto', width: 150 }} src={logo} alt='Flowise' />
+            <img style={{ objectFit: 'contain', height: 50, width: 50 }} src={logo} alt='Flowise' />
         </div>
     )
 }
